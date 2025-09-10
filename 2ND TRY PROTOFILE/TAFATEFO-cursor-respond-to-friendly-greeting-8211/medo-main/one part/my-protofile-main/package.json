@@ -1,0 +1,11 @@
+{
+  "name": "portfolio-root",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "prebuild": "cd project && npm ci",
+    "build": "cd project && npm run build && rm -rf ../dist && mkdir -p ../dist && cp -R dist/* ../dist/",
+    "preview": "npx serve -s dist -l 4173"
+  }
+}
+

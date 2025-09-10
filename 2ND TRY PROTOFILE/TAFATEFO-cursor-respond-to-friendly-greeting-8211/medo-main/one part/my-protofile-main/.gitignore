@@ -1,0 +1,8 @@
+node_modules/
+dist/
+project/node_modules/
+project/dist/
+.DS_Store
+.env
+.env.*
+

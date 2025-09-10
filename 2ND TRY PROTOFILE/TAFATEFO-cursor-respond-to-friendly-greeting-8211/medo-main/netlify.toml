@@ -1,0 +1,11 @@
+[build]
+  command = "cd 'one part/my-protofile-main' && npm run build"
+  publish = "one part/my-protofile-main/dist"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

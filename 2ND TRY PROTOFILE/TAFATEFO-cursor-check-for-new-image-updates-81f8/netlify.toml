@@ -1,0 +1,24 @@
+[build]
+  command = "cd medo-main && npm run build"
+  publish = "medo-main/one part/my-protofile-main/dist"
+
+[build.environment]
+  NODE_VERSION = "20"
+  VITE_SUPABASE_URL = "https://pjlrhjbbirxcgdjeehnu.supabase.co"
+  VITE_SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBqbHJoamJiaXJ4Y2dkamVlaG51Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTYzMTMwMDMsImV4cCI6MjA3MTg4OTAwM30.PBL2-x3z7BpIg2jQUojUBw4D0QtsOk9gJeIkegTIuCI"
+  CONTACT_TO_EMAIL = "eleanoretftf301@gmail.com"
+  # Set CONTACT_FROM_EMAIL to a verified sender (e.g., no-reply@yourdomain.com) in Netlify env
+  # CONTACT_FROM_EMAIL = "no-reply@yourdomain.com"
+  # Add your SendGrid API key in Netlify env (Dashboard)
+  # SENDGRID_API_KEY = ""
+  # Configure this in Netlify dashboard secrets for production
+  # RESEND_API_KEY = ""
+
+[functions]
+  directory = "medo-main/one part/my-protofile-main/netlify/functions"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+

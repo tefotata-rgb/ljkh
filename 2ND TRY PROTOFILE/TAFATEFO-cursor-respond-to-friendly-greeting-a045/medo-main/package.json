@@ -1,0 +1,12 @@
+{
+  "name": "portfolio-root-deploy",
+  "private": true,
+  "version": "0.1.0",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "build": "cd 'one part/my-protofile-main' && npm run build",
+    "preview": "npx serve -s 'one part/my-protofile-main/dist' -l 4173"
+  }
+}
