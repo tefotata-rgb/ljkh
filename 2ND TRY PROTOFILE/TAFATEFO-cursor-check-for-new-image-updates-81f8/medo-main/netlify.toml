@@ -1,11 +1,15 @@
 [build]
-  command = "cd 'one part/my-protofile-main' && npm run build"
-  publish = "one part/my-protofile-main/dist"
+# نخلي البيس هو المجلد الحقيقي للمشروع اللي فيه package.json اللي عايزينه يتنشر
+base    = "one part/my-protofile-main"
+command = "npm ci && npm run build"
+publish = "dist"
 
+# (اختياري) لو عايز تحدد نسخة نود على Netlify
 [build.environment]
-  NODE_VERSION = "20"
+NODE_VERSION = "22"
 
+# Single Page App redirect
 [[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
+from = "/*"
+to   = "/index.html"
+status = 200
