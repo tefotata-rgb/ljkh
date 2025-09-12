@@ -1,0 +1,20 @@
+{
+  "name": "dr-mohamed-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio website for Dr. Mohamed",
+  "main": "index.js",
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=10.0.0"
+  },
+  "scripts": {
+    "install-deps": "cd \"2ND TRY PROTOFILE/TAFATEFO-cursor-check-for-new-image-updates-81f8/medo-main/one part/my-protofile-main/project\" && npm install",
+    "build": "cd \"2ND TRY PROTOFILE/TAFATEFO-cursor-check-for-new-image-updates-81f8/medo-main/one part/my-protofile-main/project\" && npm run build",
+    "dev": "cd \"2ND TRY PROTOFILE/TAFATEFO-cursor-check-for-new-image-updates-81f8/medo-main/one part/my-protofile-main/project\" && npm run dev",
+    "preview": "cd \"2ND TRY PROTOFILE/TAFATEFO-cursor-check-for-new-image-updates-81f8/medo-main/one part/my-protofile-main/project\" && npm run preview"
+  },
+  "keywords": ["portfolio", "react", "vite", "typescript", "tailwind"],
+  "author": "Dr. Mohamed",
+  "license": "MIT",
+  "homepage": "https://jazzy-twilight-8c2ab1.netlify.app/"
+}
